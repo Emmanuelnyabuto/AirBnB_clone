@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Defines the User class.
-"""
+"""Defines the User class."""
 from models.base_model import BaseModel
 
 
@@ -13,7 +11,6 @@ class User(BaseModel):
         password (str): user password
         first_name (str): first name
         last_name (str): last name
-
     """
     email = ""
     password = ""
